@@ -1,6 +1,6 @@
 {
   "name": "u8g2",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "author": "ArthurZheng",
   "license": "MIT",
   "repository": {
@@ -22,13 +22,8 @@
   "openblock": {
     "name": "U8G2",
     "extensionId": "u8g2",
-    "supportDevice": [
-      "arduinoUno",
-      "arduinoNano",
-      "arduinoLeonardo",
-      "arduinoMega2560",
-      "arduinoEsp8266",
-      "arduinoEsp32"
+    "arch": [
+      "arduino-*"
     ],
     "iconURL": "./assets/u8g2.png",
     "description": {

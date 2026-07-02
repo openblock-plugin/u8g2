@@ -1,8 +1,7 @@
 /* eslint-disable func-style */
 /* eslint-disable max-len */
 /* eslint-disable require-jsdoc */
-export default () => {
-    return `
+export default () => `
 <category name="%{BKY_U8G2_CATEGORY}" id="U8G2_CATEGORY" colour="#FF7014" secondaryColour="#E1640A">
     <block type="u8g2_12864LCD_init" id="u8g2_12864LCD_init">
         <field name="RS">2</field>
@@ -234,4 +233,3 @@ export default () => {
     <block type="u8g2_setDrawColor" id="u8g2_setDrawColor"></block>
     <block type="u8g2_setDisplayRotation" id="u8g2_setDisplayRotation"></block>
 </category>`;
-};
